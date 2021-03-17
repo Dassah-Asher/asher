@@ -1,0 +1,113 @@
+nav{
+  display: flex;
+  background-color:steelblue;
+  justify-content: space-between;
+}
+
+nav .logo h1{
+  color:wheat;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav ul li{
+  margin: 10px;
+  color: white;
+}
+header{
+  height: 60vh;
+  background-color:grey;
+  display: flex;
+  align-items: center;
+}
+header .hero{
+  color: white;
+  font-size: 25px;
+}
+
+.form {
+  
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: grey;
+  display: flex;
+  
+}
+form {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+form input {
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+form button {
+  background-color: steelblue;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.pp{
+  font-size: larger;
+  color: blue;
+  font-style: italic;
+}
+.section{
+  background-color:grey;
+ 
+  font-size: larger;
+  display: flex;
+ 
+}
+
+.about{
+  color: wheat;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  display: flex;
+}
+
+.p-graph{
+  color: white;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-size: larger;
+
+}
+
+.more{
+  background-color: rgb(21, 122, 206);
+  font-size: 25px;
+  color: white;
+  height: 55vh;    
+}
+#html{
+  color: rgb(231, 165, 42);
+  font-size: 30px;
+  font-style: inherit;
+
+}
+
+#css{
+  color: rgb(231, 165, 42);
+  font-size: 30px;
+  font-style: inherit;
+}
+
+#js{
+  color:rgb(231, 165, 42);
+  font-size: 35px;
+  font-style:inherit
+}
+
+.cont{
+  font-style: italic;
+}
