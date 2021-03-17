@@ -13,7 +13,7 @@ function Hero() {
     return(
         <header>
             <div className="hero">
-                <h2>FRONT END PROGRAMMING LANGUAGES</h2>
+                <h2>FRONT END  LANGUAGES</h2>
                 <ul>
         <li>HTML</li>
         <li>CSS</li>
